@@ -2,7 +2,7 @@
 
 Submitted by: **Unaiza Nizami**
 
-This web app: **vENCI - VENCI**
+This web app: **A web app similar to the now-defunct StumbleUpon, which allows users to discover new things by clicking through random new stuff.**
 
 Time spent: **5** hours spent in total
 
