@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+ 
+  text-align: center;
+
+}
+body {
+background-color: black;
+background-image: url(https://img.freepik.com/free-photo/old-painted-textured-surface-backdrop_114579-40052.jpg?w=1060&t=st=1679427982~exp=1679428582~hmac=71c88dd94abcadc2bf5c2797a4e089527b6eb7798be88de4529cbb5209cf3eff)
+
+
+/* 
+color: white; */
+}
+html {
+  overflow-x: hidden;
+}
+
+.responsive-three-column-grid {
+  display:block;
+}
+
+/* columns */
+.responsive-three-column-grid > * {
+  padding:1rem;
+}
+.submit{
+  background-color: rgba(249, 73, 73, 0.89);
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:rgb(246, 144, 10);
+  margin: 5px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: red;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

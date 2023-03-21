@@ -1,0 +1,105 @@
+
+.container{
+  text-align: center;
+  width: 500px;
+  align-items: center;
+  margin:0 auto;
+  font-size: 17px;
+  font-weight: 20px;
+  color:rgba(255, 255, 255, 0.603);
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 200px;
+  padding: 0 10px;
+
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;
+
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Style the counter cards */
+.card {
+ padding: 16px;
+  text-align: center;
+  font-size: small;
+  width: 100px;
+ 
+}
+
+.card .between{
+  padding: 0;
+  width: 400px;
+  left: 10;
+  display: flex;
+
+}
+
+
+
+.feature{
+
+width: 700px;
+height: 700px;
+
+background-color:black;
+opacity: 90%;
+align-items: center;
+color: white;
+display: inline-block;
+margin-right: 100px;
+
+}
+
+/* 
+.bannlist{
+
+
+} */
+
+.bannlist{
+
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7d7777;
+  color: #000;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.history{
+
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right:-1;
+  bottom: 300px;
+ background-color: #7d7777;
+  color: #000;
+  font-weight: 200;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
+
+}
